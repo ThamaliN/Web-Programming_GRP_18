@@ -29,7 +29,7 @@
     <div class="header">
 
     <div class="login-section">
-        <a href="login.html" class="login-link">
+        <a href="register.php" class="login-link">
             <h1 class="login-word">Login</h1>
         </a> 
         <img src="Front Images/login icon.png" alt="Login Image" class="login-image">
