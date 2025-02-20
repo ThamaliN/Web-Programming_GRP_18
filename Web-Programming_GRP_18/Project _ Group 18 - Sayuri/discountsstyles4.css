@@ -1,0 +1,210 @@
+ /* Details of the body */
+ body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+/* Logo */
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-left: 70px;
+    top: 40px; 
+}
+
+.logo-image {
+    width: 350px; 
+    height: 150px;
+    
+}
+
+/* Brand Name and Moto */
+
+.fashion {
+    position: absolute;
+    top: 45px; 
+    left: 435px; 
+    text-align: left; 
+    color: black; 
+    padding: 1px;
+        
+}
+
+.brand-name {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.motto {
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+/* Login */
+.header {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 50px; 
+    padding: 20px;    
+}
+  
+.login-section,
+.cart-section {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+  
+.login-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+
+}
+  
+.login-image {
+    width: 40px;
+    height: 40px;
+}
+
+.cart-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+  
+.cart-image {
+    width: 40px;
+    height: 40px;
+}
+
+/* discount Container */
+.discount-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+
+/* discount Card */
+.discount-card {
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* discount Image Section */
+.discount-image {
+    background: #000;
+    color: #0ff;
+    padding: 20px;
+    border-radius: 6px;
+    position: relative;
+    margin-bottom: 10px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* discount Text Section */
+.discount-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.discount-amount {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.discounts {
+    width: 250px; 
+    height: 200px;
+    
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white(219, 172, 172);
+
+    padding: 50px 0;    ;
+    background-color: black; /* Light background for footer */
+    text-align: center;
+    color: white;
+    display:grid;
+    margin:auto;  /*centers the layout*/
+    font-size: 20px;
+}
+
+.footer-container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-heading {
+    display: inline-flex; /* Make the heading behave like an inline element */
+    margin-bottom: auto; /* Add space below the heading */
+    font-size: 300px;
+    font-weight: bold;
+    margin: 100px;
+
+}
+
+.footer-section {
+    display: inline;
+    min-width: 200px;
+    padding: 10px
+
+
+
+}
+.footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+
+}
+
+
+

@@ -1,0 +1,101 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white(219, 172, 172);
+
+}
+
+
+.image-grid{
+
+    width:auto;
+    margin: auto; /*centers the layout*/
+    display: grid; /* Use Grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 3 equal columns */
+    gap: 100px;; /* Space between images */
+    font-size: 50px
+
+}
+
+.image-grid img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    
+    
+    
+}
+.image-grid p{
+    margin: 10px; /* Space between image and text */
+    text-align: center;
+    
+}
+
+footer {
+    padding: 50px 0;    ;
+    background-color: black; /* Light background for footer */
+    text-align: center;
+    color: white;
+    display:grid;
+    margin:auto;  /*centers the layout*/
+    font-size: 20px;
+    
+}
+
+.footer-container {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-heading {
+    display: inline-flex; /* Make the heading behave like an inline element */
+    margin-bottom: auto; /* Add space below the heading */
+    font-size: 300px;
+    font-weight: bold;
+    margin: 100px;
+
+}
+
+.footer-section {
+    display: inline;
+    min-width: 200px;
+    padding: 10px
+
+
+
+}
+.footer-section h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.social-media img {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+}
+.container{
+    margin-left: 30px;
+    padding-top: 0;
+    font-size: medium;
+    font-weight:lighter;
+}

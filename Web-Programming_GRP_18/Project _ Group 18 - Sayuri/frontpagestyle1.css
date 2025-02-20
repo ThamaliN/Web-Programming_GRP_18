@@ -1,0 +1,190 @@
+ /* Details of the body */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+
+ /* Logo */
+
+.logo {
+    position: relative;
+    display: inline-block;
+    margin-left: 30px;
+    top: 40px; 
+}
+
+.logo-image {
+    width: 250px; 
+    height: 120px;
+    
+}
+
+/* Brand Name and Moto */
+
+.fashion {
+    position: absolute;
+    top: 45px; 
+    left: 325px; 
+    text-align: left; 
+    color: black; 
+    padding: 10px;
+        
+}
+
+.brand-name {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.motto {
+    font-size: 25px;
+    margin: 0;
+    
+}
+
+/* Login */
+.header {
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 50px; 
+    padding: 20px;    
+}
+
+.login-section,
+.cart-section {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+}
+
+.login-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+
+}
+
+.login-image {
+    width: 40px;
+    height: 40px;
+}
+
+.cart-word {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+.cart-image {
+    width: 40px;
+    height: 40px;
+}
+  
+
+
+/* Categories */
+.categories {
+    background-color: black;
+    color: white;
+    padding: 25px 2px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* Front Page First Images */
+
+.first-images{
+    display: flex; 
+    padding: 0;   
+    margin-left: a;     
+    gap: 0;        
+    width:100% ;
+    height: auto;;
+}
+    
+.first-images img {
+    display: block; 
+    margin: auto;      
+    padding: 0;   
+    width:321px ;
+    height: 545px;  
+    
+}
+
+.second-images{
+    display: flex; 
+    padding: 0;    
+    margin-left: auto;     
+    gap: 0; 
+    width:100% ;
+    height: auto;       
+}
+    
+.second-images img {
+    display: block; 
+    margin: auto;      
+    padding: 0;     
+    width:321px ;
+    height: 545px;
+}
+    
+
+/* New In Styling */
+.new-in {
+    background-color: black;
+    color: white;
+    padding: 25px 2px;
+    margin-top: 100px;    
+    
+}s
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+  }
+    
+  /* mouse over link */
+  a:hover {
+    color: grey;
+  }
+    
+  /* selected link */
+  a:active {
+    color: grey;
+  }
+
+
+
