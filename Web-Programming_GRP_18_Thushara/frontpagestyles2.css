@@ -34,7 +34,7 @@ footer {
     padding: 50px 0;    ;
     background-color: black; /* Light background for footer */
     text-align: center;
-    color: white;
+    color: rgba(255, 255, 255, 0.957);
     display:grid;
     margin:auto;  /*centers the layout*/
     font-size: 20px;
@@ -80,7 +80,7 @@ footer {
 }
 
 .footer-section ul li a {
-    color: rgb(44, 42, 42);
+    color: rgb(247, 229, 229);
     text-decoration: none;
 }
 
