@@ -9,7 +9,7 @@ ini_set('display_errors', 1);
 $contentType = isset($_SERVER["CONTENT_TYPE"]) ? trim($_SERVER["CONTENT_TYPE"]) : '';
 
 if ($contentType === "application/json") {
-    // Handle JSON data
+    // Handle JSON data 
     $content = trim(file_get_contents("php://input"));
     $decoded = json_decode($content, true);
    
