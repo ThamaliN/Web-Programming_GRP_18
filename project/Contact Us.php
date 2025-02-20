@@ -24,6 +24,11 @@ include 'header.php'?>
         <h3>Email Address:</h3>
         <p><a href="mailto:info@BlackThread.com">info@blackthread.com</a></p>
     </article>
+    <article>
+        <h3>Customer Feedback:</h3>
+    <p><a href="feedbackinput.php">Customer Feedback</a></p>
+    </article>
+
     
     </div> <!--container ends-->
         

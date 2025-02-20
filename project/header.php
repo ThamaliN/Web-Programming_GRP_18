@@ -12,6 +12,8 @@
     </title>
     <link rel="stylesheet" href="frontpagestyle1.css">
     <link rel="stylesheet" href="frontpagestyles2.css">
+    <link href="input.css" rel="stylesheet">
+    <link rel="stylesheet" href="men&kids.css">
 
 </head>
 <body>
@@ -62,5 +64,5 @@
             </div>
         </nav>
     </header>
-<?php mysqli_close ($conn);  ?>
+
     

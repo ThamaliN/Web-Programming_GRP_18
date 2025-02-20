@@ -13,29 +13,29 @@ if ($contentType === "application/json") {
     $content = trim(file_get_contents("php://input"));
     $decoded = json_decode($content, true);
     
-    $productType = $decoded['product_type'];
-    $name = $decoded['name'];
-    $price = $decoded['price'];
+
+    $customer_name = $decoded['customer_name'];
     $category_id = $decoded['category_id'];
-    $size = $decoded['size'];
+    $comment = $decoded['comment'];
+    $ratings = $decoded['ratings'];
 } else {
     // Handle regular POST data
-    $productType = $_POST['product_type'];
-    $name = $_POST['name'];
-    $price = $_POST['price'];
+
+    $customer_name = $_POST['customer_name'];
     $category_id = $_POST['category_id'];
-    $size = $_POST['size'];
+    $comment = $_POST['comment'];
+    $ratings = $_POST['ratings'];
 }
 
 // Escape inputs to prevent SQL injection
-$productType = mysqli_real_escape_string($connect, $productType);
-$name = mysqli_real_escape_string($connect, $name);
-$price = mysqli_real_escape_string($connect, $price);
-$category_id = mysqli_real_escape_string($connect, $category_id);
-$size = mysqli_real_escape_string($connect, $size);
 
-$sql = "INSERT INTO product_table_men (product_type, name, price, category_id, size) 
-        VALUES ('$productType', '$name', '$price', '$category_id', '$size')";
+$customer_name = mysqli_real_escape_string($connect, $customer_name);
+$category_id = mysqli_real_escape_string($connect,  $category_id);
+$comment = mysqli_real_escape_string($connect, $comment);
+$ratings = mysqli_real_escape_string($connect, $ratings);
+
+$sql = "INSERT INTO feedback_table (customer_name, category_id, comment, ratings) 
+        VALUES ( '$customer_name', ' $category_id', '$comment', '$ratings')";
 
 if ($connect->query($sql) === TRUE) {
     if ($contentType === "application/json") {

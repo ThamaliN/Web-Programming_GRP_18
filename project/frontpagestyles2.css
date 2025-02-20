@@ -1,6 +1,7 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: white(219, 172, 172);
+    color: black;
 
 }
 
@@ -79,7 +80,7 @@ footer {
 }
 
 .footer-section ul li a {
-    color: white;
+    color: rgb(44, 42, 42);
     text-decoration: none;
 }
 
@@ -97,5 +98,7 @@ footer {
     margin-left: 30px;
     padding-top: 0;
     font-size: medium;
-    font-weight:lighter;
+    font-weight:bold;
+    color: black;
+
 }

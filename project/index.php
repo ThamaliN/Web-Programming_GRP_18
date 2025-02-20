@@ -30,8 +30,9 @@ include 'header.php'?>
         <nav>
             <div class="nav-links">
                 <ul>
-                    <li><a href="http://127.0.0.1:5500/frontpage.html">New In</a></li> <!--will include the correct link lastly -->
-                                        
+                    <li><a href="input.php">New In - Men</a></li> <!--will include the correct link lastly -->
+                    <li><a href="input.php">New In - Women</a></li> 
+                    <li><a href="input.php">New In - Kids</a></li>            
                 </ul>
             </div>
         </nav>
@@ -43,7 +44,7 @@ include 'header.php'?>
                 <img src="Front Images/Collection 2.jpg" alt="Shop Women" width="100" height="48" /><br />Shop Women </a></p>
                 
     
-                <p><a href="men.html" target="_blank" rel="external nofollow"> 
+                <p><a href="men.php" target="_blank" rel="external nofollow"> 
                     <img src="Front Images/Collection 3.jpg" alt="Shop Men" width="100" height="48" /><br /> Shop Men </a></p>
         </div>
     
