@@ -62,6 +62,8 @@ Table 3 (Thamali Rathnayke): Product Table Kids & Delete Table Kids
 Table 4 (Sayuri Wijerathna): Product Table Women (ER Diagram & Readme.md file)
 Table 5 (Titus-Muoki): Cart Table  
 
+![ER Diagram](ER_Diagram.png)  
+
 
 
 //Created Forms
