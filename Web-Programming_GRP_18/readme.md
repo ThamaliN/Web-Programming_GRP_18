@@ -2,14 +2,14 @@
 
 Our web development project, BlackThread, is an online clothing store that provides a stylish and seamless shopping experience. The platform features fashion for men, women, and kids, along with exclusive gift vouchers, discounts, and a wish list for users.
 
-# **** Table of Contents ****
+# Table of Contents 
 Features 
 - Database Tables 
 - Created Forms
 - Created Tables
 
 
-# **** Features ****
+#  Features 
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
  - Feature 1 :  Login & Registration System.
@@ -52,7 +52,7 @@ We created this feature to keep items in the cart during online shopping.
 - shell link -  
 
 
-# //Database Tables
+# Database Tables
 List the database tables that are part of your project.
 
 - Table 1 (Wimalka Madhavi): Login Table
@@ -61,8 +61,7 @@ List the database tables that are part of your project.
 - Table 4 (Sayuri Wijerathna): Product Table Women (ER Diagram & Readme.md file)
 - Table 5 (Titus-Muoki): Cart Table  
 
-![ER Diagram](ER_Diagram.png)  
-
+![ER Diagram](ER_Diagram.png) 
 
 
 # Created Forms
@@ -119,3 +118,6 @@ shell link - https://shell.hamk.fi/~amk1002093/Web-Programming_GRP_18_Thushara/f
 ## Table 5 (Titus-Muoki): Cart Table 
 - github link - https://github.com/ThamaliN/Web-Programming_GRP_18/blob/main/Web-Programming_GRP_18/cartindex.php
 - shell link - 
+
+
+[def]: ER_Diagram.png
